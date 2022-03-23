@@ -922,6 +922,8 @@ window.addEventListener( 'DOMContentLoaded', () => {
         // Get Total Supply
         var maxSupply = await contract.methods.getMaxSupply().call();
         document.getElementById( 'max-supply' ).textContent = maxSupply; 
+
+        // document.getElementById('btn-mint').style.visibility = 'hidden';
     }
         
 
@@ -956,6 +958,8 @@ window.addEventListener( 'DOMContentLoaded', () => {
                 
                 var account = await web3.eth.getAccounts();
                 account = account[ 0 ];
+
+                document.getElementById('btn-mint').style.visibility = 'visible';
 
                 // Check is Owner
                 // var isOwner = await contract.methods.isOwner( account ).call();
