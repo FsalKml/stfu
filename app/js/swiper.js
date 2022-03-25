@@ -17,7 +17,7 @@ var swiper = new Swiper(".mySwiper1", {
         1120: {
             slidesPerView: 4
         },
-        1600: {
+        1900: {
             slidesPerView: 5
         },
     },
@@ -55,7 +55,7 @@ var swiper = new Swiper(".mySwiper2", {
         1120: {
             slidesPerView: 4
         },
-        1600: {
+        1900: {
             slidesPerView: 5
         },
     },
@@ -308,17 +308,17 @@ var swiper = new Swiper('.swiper-blog', {
     breakpoints: {
       // when window width is >= 320px
       320: {
-        slidesPerView: 4,
+        slidesPerView: 2,
         spaceBetween: 10
       },
       // when window width is >= 480px
       767: {
-        slidesPerView: 5,
+        slidesPerView: 2,
         spaceBetween: 10
       },
       // when window width is >= 640px
       991: {
-        slidesPerView: 4,
+        slidesPerView: 2,
         spaceBetween: 10
       }
     },
@@ -329,8 +329,8 @@ var swiper = new Swiper('.swiper-blog', {
   var galleryTop = new Swiper('.gallery-top', {
     spaceBetween: 10,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next.style-2',
+      prevEl: '.swiper-button-prev.style-2',
     },
     thumbs: {
       swiper: galleryThumbs
