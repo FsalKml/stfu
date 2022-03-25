@@ -17,9 +17,6 @@ var swiper = new Swiper(".mySwiper1", {
         1120: {
             slidesPerView: 4
         },
-        1900: {
-            slidesPerView: 5
-        },
     },
     shortSwipes: false,
     longSwipes: false,
@@ -54,9 +51,6 @@ var swiper = new Swiper(".mySwiper2", {
         },
         1120: {
             slidesPerView: 4
-        },
-        1900: {
-            slidesPerView: 5
         },
     },
     shortSwipes: false,
