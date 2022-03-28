@@ -1013,7 +1013,11 @@ window.addEventListener( 'DOMContentLoaded', () => {
     if ( MetaMaskOnboarding.isMetaMaskInstalled() ) {
         window.ethereum.on( 'accountsChanged', ( newAccounts ) => {
             accounts = newAccounts;
-            updateButton();
+
+            if (!accounts.length) {
+                document.getElementById('btn-mint').style.visibility = 'hidden';
+            }
+            updateButton();      
         });
     }
 
