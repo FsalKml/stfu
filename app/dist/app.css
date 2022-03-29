@@ -147,6 +147,15 @@ h6,
   font-size: 72px;
   letter-spacing: 3px;
 }
+.fs-72-x {
+  font-size: 72px;
+  letter-spacing: 3px;
+}
+@media only screen and (max-width: 393px) {
+  .fs-72-x {
+    font-size: 60px;
+  }
+}
 
 .fs-85 {
   font-size: 85px;
@@ -1265,10 +1274,14 @@ a:hover {
     top: -490px;
   }
 }
-
 @media only screen and (max-width: 358px) {
   .section-about .block-text p.heading-bg {
     top: -525px;
+  }
+}
+@media only screen and (max-width: 351px) {
+  .section-about .block-text p.heading-bg {
+    top: -570px;
   }
 }
 
@@ -1301,7 +1314,7 @@ a:hover {
     left: -100px;
   }
 }
-@media only screen and (max-width: 699px) {
+@media only screen and (max-width: 684px) {
   .road-map .block-text p.heading-bg {
     top: -15px;
   }
@@ -1314,6 +1327,11 @@ a:hover {
 @media only screen and (max-width: 575px) {
   .road-map .block-text p.heading-bg {
     left: -190px;
+  }
+}
+@media only screen and (max-width: 386px) {
+  .road-map .block-text p.heading-bg {
+    top: 25px;
   }
 }
 
@@ -1347,7 +1365,7 @@ a:hover {
     left: -140px;
   }
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 560px) {
   .team .block-text p.heading-bg {
     top: -15px;
   }
@@ -1402,6 +1420,12 @@ a:hover {
     left: -280px;
   }
 }
+@media only screen and (max-width: 393px) {
+  .collection .block-text p.heading-bg {
+    left: -330px;
+    top: -43px;
+  }
+}
 
 
 /*--------------------------------------------------
@@ -1425,6 +1449,12 @@ a:hover {
 @media only screen and (max-width: 583px) {
   .utility .block-text p.heading-bg {
     left: -50px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .utility .block-text p.heading-bg {
+    left: -100px;
+    top: -7px;
   }
 }
 
@@ -1460,6 +1490,16 @@ a:hover {
 @media only screen and (max-width: 600px) {
   .partners .block-text p.heading-bg {
     left: -155px;
+  }
+}
+@media only screen and (max-width: 478px) {
+  .partners .block-text p.heading-bg {
+    top: -5px;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .partners .block-text p.heading-bg {
+    left: -210px;
   }
 }
 
@@ -3518,7 +3558,7 @@ a:hover {
   border-radius: 15px;
   text-align: center;
   cursor: pointer;
-  margin: 0px 20px 20px 20px;
+  margin: 0px 10px 20px 10px;
 }
 .team-box .img-team {
   position: relative;
@@ -3880,12 +3920,13 @@ a:hover {
 }
 
 .partner-box {
+  min-height: 360px;
   background: #43b8b6;
   border: 2px solid #fff;
   border-radius: 15px;
   text-align: center;
   cursor: pointer;
-  margin: 0px 20px 20px 20px;
+  margin: 0px 10px 20px 10px;
 }
 .partner-box .img-partner {
   position: relative;
